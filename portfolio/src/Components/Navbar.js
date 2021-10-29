@@ -5,11 +5,11 @@ import {makeStyles} from '@material-ui/core/styles';
 function Navigation() {
 
     return (
-      <nav className="navbar nav">
+      <nav className="navbar nav navbar-expand">
         <a href="/home">Jhanae Chisholm</a>
-       <div className="">
-        <ul className=" navbar-nav mr-auto">
-            <li className="nav-item">
+       <div className="collapse navbar-collapse submenu">
+        <ul className=" navbar-nav">
+            <li className="nav-item active">
               <a className="nav-link" href="/about">About</a>
             </li>
             <li className="nav-item">
