@@ -6,7 +6,7 @@ function Navigation() {
 
     return (
       <nav className="navbar nav navbar-expand">
-        <a href="/home">Jhanae Chisholm</a>
+        <a href="/">Jhanae Chisholm</a>
        <div className="collapse navbar-collapse submenu">
         <ul className=" navbar-nav">
             <li className="nav-item active">

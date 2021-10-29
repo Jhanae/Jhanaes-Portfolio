@@ -7,21 +7,14 @@ import Pic from "./Pictures/1background.jpg";
 
 function App() {
   return (
-
-    <div className="App">
-      <Navbar/>
+    <Router>
+      <Navbar />
       <img src={Pic} alt="Pic" className="background"/>
-    </div>
-    // <Router>
-    //   <NavbarTop />
-    //   <Switch>
-    //     <Route exact path="/home" component={Home}/>
-    //     {/* <Route path="/planets" component={() => <PlanetContainer data={planetData}/>} />
-    //     <Route path="/distance" component={() => <Distance planets={planetData}/>} />
-    //     <Route exact path="/newplanet" component={()=> <AddNewForm setPlanetData={setPlanetData} planetData={planetData}/>}/>
-    //     <Route exact path="/about-us" component={About}/> */}
-    //   </Switch>
-    //   </Router>
+      <Switch>
+        <Route exact path="/home" component={Home}/>
+      </Switch>
+      </Router>
+      
   );
 }
 
