@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <img src={Pic} alt="Pic" className="background"/>
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/Jhanaes-Portfolio/" component={Home}/>
       </Switch>
       </Router>
       
