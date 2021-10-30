@@ -4,10 +4,13 @@ import styled from 'styled-components'
 
 function Navigation() {
   const StyledDiv = styled.div`
-    a:visited {
+    a{
         color: black;
-        font-weight: 300;
+        font-weight: bold;
     }
+    // a:visited{
+    //     color: brown;
+    // }
 `;
     return (
         <StyledDiv>
