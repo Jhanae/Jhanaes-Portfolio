@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-import Pic from "./Pictures/1background.jpg";
+import Pic from "./Pictures/backgro.jpg";
 
 function App() {
   return (

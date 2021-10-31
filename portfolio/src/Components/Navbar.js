@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Navigation() {
   const StyledDiv = styled.div`
     a{
-        color: black;
+        color: rgb(33, 240, 6);
         font-weight: bold;
     }
     // a:visited{
