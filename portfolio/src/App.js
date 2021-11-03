@@ -8,7 +8,7 @@ import Pic from "./Pictures/backgro.jpg";
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <img src={Pic} alt="Pic" className="background"/>
       <Switch>
         <Route exact path="/Jhanaes-Portfolio/" component={Home}/>

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Navigation() {
   const StyledDiv = styled.div`
     a{
-        color: rgb(33, 240, 6);
+        color: white;
         font-weight: bold;
     }
     // a:visited{
@@ -13,7 +13,7 @@ function Navigation() {
     // }
 `;
     return (
-        <StyledDiv>
+      <StyledDiv>
       <nav className="navbar nav navbar-expand">
         <a href="/Jhanaes-Portfolio/" style={{ fontColor: 'black' }}>Jhanae Chisholm</a>
        <div className="collapse navbar-collapse submenu">
