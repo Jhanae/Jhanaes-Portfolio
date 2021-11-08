@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Projects() {
+function Resume() {
     return (
         <div>
-            <div className="Projectsbackground">
+            <div className="Resumebackground">
             <h1>Projects</h1>
                 <h3>I am sjfdjnjdsnc <br/> hfgzfjgvfjvjfbvjfb</h3>
             </div>
@@ -11,4 +11,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default Resume

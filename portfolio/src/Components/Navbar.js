@@ -27,6 +27,9 @@ function Navigation() {
             <li className="nav-item">
               <a className="nav-link" href="/Jhanaes-Portfolio/links">Links</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Jhanaes-Portfolio/resume">Resume</a>
+            </li>
           </ul>
        </div>
       </nav>

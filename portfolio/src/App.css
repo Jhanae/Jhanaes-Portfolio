@@ -4,7 +4,7 @@
   text-align: center;
 }
 .background{
-  height:100vh;
+  height:104vh;
   width:auto;
   z-index: -2;
   position:absolute;
@@ -16,10 +16,9 @@
   padding-left: 1.5rem;
   height: 3rem;
   font-weight: bold;
-
 }
 .submenu{
-  margin-left: 65%;
+  margin-left: 58%;
 }
 .name{
   font-family: 'Architects Daughter', cursive;  text-align: center;
@@ -28,10 +27,10 @@
   margin-top: 5rem;
 }
 .stickyNote1{
-  background-color: rgb(240, 205, 6);
+  background-color: rgb(243, 239, 4);
   width: 20rem;
   height: 15rem;
-  margin-top: 3rem;
+  margin-top: 8rem;
   padding: 1rem;
   display: flexbox;
   transform: rotate(6deg);
@@ -42,10 +41,10 @@
   padding-top: 6rem;
 }
 .stickyNote2{
-  background-color: rgb(240, 119, 6);
+  background-color: rgb(250, 142, 0);
   width: 20rem;
   height: 15rem;
-  margin-top: 2rem;
+  margin-top: 7rem;
   padding: 1rem;
   display: flexbox;
   transform: rotate(-2deg);
@@ -56,7 +55,7 @@
   font-family: 'Architects Daughter', cursive;  text-align: center;
 }
 .stickyNote3{
-  background-color: rgb(240, 6, 228);
+  background-color: rgb(255, 8, 234);
   width: 20rem;
   height: 15rem;
   margin-top: 4rem;
@@ -70,13 +69,67 @@
   font-family: 'Architects Daughter', cursive;  text-align: center;
 }
 .stickyNote4{
-  background-color: rgb(33, 240, 6);
+  background-color: rgb(63, 255, 5);
   width: 25rem;
   height: 15rem;
   margin: 2rem;
   padding: 1rem;
   display: flexbox;
   transform: rotate(2deg);
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 6rem;
+  font-family: 'Architects Daughter', cursive;  text-align: center;
+}
+
+.Aboutbackground{
+  background-color: rgb(243, 239, 4);
+  width: 30rem;
+  height: 33rem;
+  margin-top: 6rem;
+  margin-left: 30rem;
+  padding: 1rem;
+  transform: rotate(2deg);
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 6rem;
+  font-family: 'Architects Daughter', cursive;  text-align: center;
+}
+.Projectsbackground{
+  background-color: rgb(250, 142, 0);
+  width: 28rem;
+  height: 33rem;
+  margin-top: 6rem;
+  padding: 1rem;
+  transform: rotate(-2deg);
+  margin-left: 30rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 6rem;
+  font-family: 'Architects Daughter', cursive;  text-align: center;
+}
+.Linksbackground{
+  background-color: rgb(255, 8, 234);
+  width: 30rem;
+  height: 33rem;
+  margin-top: 6rem;
+  padding: 1rem;
+  transform: rotate(-3deg);
+  margin-left: 30rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 6rem;
+  font-family: 'Architects Daughter', cursive;  text-align: center;
+}
+.Resumebackground{
+  background-color: rgb(63, 255, 5);
+  width: 30rem;
+  height: 33rem;
+  margin-top: 6rem;
+  padding: 1rem;
+  display: flexbox;
+  transform: rotate(2deg);
+  margin-left: 30rem;
   font-size: 2rem;
   text-align: center;
   padding-top: 6rem;

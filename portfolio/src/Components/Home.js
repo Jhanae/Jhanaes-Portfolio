@@ -15,7 +15,7 @@ function Home() {
     return (
         <StyledDiv>
         <div className="container">
-            <h1 className="name">Jhanae Chisholm</h1>
+            {/* <h1 className="name">Jhanae Chisholm</h1> */}
             <div className="row">
                 <div className="col-lg stickyNote1">
                     <a href="/Jhanaes-Portfolio/about">About</a>
