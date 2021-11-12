@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@600&display=swap');
+
 .App {
   text-align: center;
 }
@@ -134,4 +135,8 @@
   text-align: center;
   padding-top: 6rem;
   font-family: 'Architects Daughter', cursive;  text-align: center;
+}
+
+.Linksbackground{
+  background-image: src("../Pictures/clipboard.png");
 }
